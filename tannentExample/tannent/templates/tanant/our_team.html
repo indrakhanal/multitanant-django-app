@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tanent Example</title>
+</head>
+<body>
+<h1>{{ tanant.name }}</h1>
+<h2>Our Teams</h2>
+<ul>
+    {% for member in members %}
+    <li>{{ member.name }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
